@@ -55,7 +55,7 @@ Sony Noise Cancelling Headphones WHCH710N: Wireless Bluetooth Over the Ear Heads
           id={3663939}
           title="
 Sony X900H 65 Inch TV: 4K Ultra HD Smart LED TV with HDR and Alexa Compatibility - 2020 Model"
-          price={151.96}
+          price={1551.96}
           rating={4}
           image="https://images-na.ssl-images-amazon.com/images/I/612U-Yeox0L._AC_SL1080_.jpg"
         />
