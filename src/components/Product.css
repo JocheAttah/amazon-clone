@@ -18,6 +18,7 @@
 }
 .product__rating{
     display: flex;
+    /* margin-bottom: 10px; */
 }
 
 .product__price{
@@ -30,8 +31,6 @@
     object-fit: contain;
     margin-bottom: 15px;
 }
-
-
 
 .product__button{
     background-color: #f0c14b;

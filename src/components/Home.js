@@ -22,7 +22,7 @@ function Home() {
           id={55648839}
           title="
 Sony Noise Cancelling Headphones WHCH710N: Wireless Bluetooth Over the Ear Headset with Mic for phone-call, Blue (Amazon Exclusive) (WHCH710N/L)"
-          price={98}
+          price={98.25}
           rating={4}
           image="https://m.media-amazon.com/images/I/511G0DPMuQL._AC_UY218_.jpg"
         />
@@ -31,22 +31,22 @@ Sony Noise Cancelling Headphones WHCH710N: Wireless Bluetooth Over the Ear Heads
         <Product
           id={7578363780}
           title="Bose SoundLink Color Bluetooth Speaker II - Soft Black"
-          price={129}
+          price={129.99}
           rating={5}
           image="https://m.media-amazon.com/images/I/71Xg3PvaiQL._AC_UY218_.jpg"
         />
         <Product
           id={75840383384}
           title="Sonos Move - Battery-powered Smart Speaker, Wi-Fi and Bluetooth with Alexa built-in - Black​​​​​​​"
-          price={11.96}
-          rating={5}
+          price={191.96}
+          rating={4}
           image="https://m.media-amazon.com/images/I/91Ckx1BIckL._AC_UY218_.jpg"
         />
         <Product
           id={24638404440}
           title="Bose SoundLink Revolve, Portable Bluetooth Speaker (with 360 Wireless Surround Sound), Triple Black"
-          price={11.96}
-          rating={5}
+          price={121.96}
+          rating={3}
           image="https://m.media-amazon.com/images/I/81ipKYwWZBL._AC_UY218_.jpg"
         />
       </div>
@@ -55,8 +55,8 @@ Sony Noise Cancelling Headphones WHCH710N: Wireless Bluetooth Over the Ear Heads
           id={3663939}
           title="
 Sony X900H 65 Inch TV: 4K Ultra HD Smart LED TV with HDR and Alexa Compatibility - 2020 Model"
-          price={11.96}
-          rating={5}
+          price={151.96}
+          rating={4}
           image="https://images-na.ssl-images-amazon.com/images/I/612U-Yeox0L._AC_SL1080_.jpg"
         />
         
