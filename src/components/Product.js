@@ -3,23 +3,23 @@ import "./Product.css";
 import { useStateValue } from "./StateProvider";
 
 function Product({ id, title, price, rating, image }) {
-  const [{ basket }, dispatch] = useStateValue();
-
-  console.log("this is the basket >>>", basket);
-
-  const addToBasket = () => {
-    // disptach the iteem intothe datatlayer
-    dispatch({
-      type: "ADD_TO_BASKET",
-      item: {
-        id: id,
-        title: title,
-        price: price,
-        rating: rating,
-        image: image,
-      },
-    });
-  };
+    const [{ basket }, dispatch] = useStateValue();
+ 
+    // console.log('this is the basket >>>', basket);   
+    
+    const addToBasket = () => {
+        // disptach the iteem intothe datatlayer
+        dispatch({
+            type: "ADD_TO_BASKET",
+            item: {
+                id: id,
+                title: title,
+                price: price,
+                rating: rating,
+                image: image,   
+            },
+        });
+     };
 
   return (
     <div className="product">
@@ -33,20 +33,12 @@ function Product({ id, title, price, rating, image }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p>
-                <span role="img" aria-label="star">
-                  ⭐
-                </span>
-              </p>
+              <p><span role="img" aria-label="star">⭐</span></p>
             ))}
         </div>
       </div>
-      <div className="product__image">
-        <img src={image} alt={title} />
-      </div>
-      <button className="product__button" onClick={addToBasket}>
-        Add to Basket
-      </button>
+      <img className="product__image" src={image} alt={title} />
+      <button className='product__button' onClick={addToBasket}>Add to Basket</button>
     </div>
   );
 }

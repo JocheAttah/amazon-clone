@@ -10,8 +10,14 @@ function Login() {
 
   const signIn = (e) => {
     e.preventDefault();
-
     //   fancy firebase login
+    auth
+    .signInWithEmailAndPassword(email, password)
+    .then((auth) => {
+      history.push('/');
+    })
+    .catch((error) => alert(error.message));
+    
   };
 
   const register = (e) => {
@@ -21,7 +27,7 @@ function Login() {
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
         //   it successfully created a uuser with email and password
-        console.log(auth)
+        // console.log(auth)
         if(auth) {
           history.push('/')
         }
