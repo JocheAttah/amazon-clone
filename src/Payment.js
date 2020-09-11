@@ -10,9 +10,9 @@ function Payment() {
   return (
     <div className="payment">
       <div className="payment__container">
-        <h1>
+        <h1 className="payment__itemNo">
           Checkout(
-          <Link to="/checkout">{basket.length} items</Link>)
+          <Link className="payment__link" to="/checkout">{basket.length} items</Link>)
         </h1>
         {/* payment section- address */}
         <div className="payment__section">
@@ -21,7 +21,7 @@ function Payment() {
           </div>
           <div className="payment__address">
             <p>{user?.email}</p>
-            <p>123 react lane</p>
+            <p>123 React Lane</p>
             <p>Lagos, NG</p>
           </div>
         </div>
@@ -38,6 +38,7 @@ function Payment() {
                 image={item.image}
                 rating={item.rating}
                 price={item.price}
+                className="payment__prod"
               />
             ))}
           </div>
