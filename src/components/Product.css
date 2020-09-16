@@ -12,7 +12,7 @@
     z-index: 1;
 }
 .product__info{
-    align-self: flex-start;
+    /* align-self: flex-start; */
     height: 100px;
     /* margin-bottom: 37px; */
     margin-bottom: 15px;
