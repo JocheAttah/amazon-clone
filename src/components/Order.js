@@ -21,6 +21,7 @@ function Order({ order }) {
           image={item.image}
           rating={item.rating}
           price={item.price}
+          hideButton
         />
       ))}
       <CurrencyFormat

@@ -126,14 +126,14 @@ function Payment() {
           </div>
           <div className="payment__details">
             {/* stripe stuff */}
-            <form onSubmit={handleSubmit}>
+            <form  className='payment__form' onSubmit={handleSubmit}>
               <CardElement onChange={handleChange} />
 
               <div className="payment__priceContainer">
                 <CurrencyFormat
                   renderText={(value) => (
                     <>
-                      <h3>Order Total: {value}</h3>
+                      <h3 className="payment_total">Order Total: {value}</h3>
                     </>
                   )}
                   decimalScale={2}
@@ -142,7 +142,7 @@ function Payment() {
                   thousandSeparator={true}
                   prefix={"$"}
                 />
-                <button disabled={processing || disabled || succeeded}>
+                <button className="payment__button" disabled={processing || disabled || succeeded}>
                   <span>{processing ? "Processing" : "Buy Now"}</span>
                 </button>
               </div>

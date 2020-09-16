@@ -1,3 +1,7 @@
 .orders{
-    background-color: #white;
+    padding: 20px 80px;
+}
+
+.orders__heading{
+    margin: 20px 0;
 }
