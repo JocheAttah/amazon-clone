@@ -20,6 +20,22 @@ const promise = loadStripe(
 function App() {
   const [{}, dispatch] = useStateValue();
 
+  // const [posts, setPosts]= useState([]);
+
+  // useEffect(() => {
+  //   db.collection("posts")
+  //     .orderBy("timestamp", "desc")
+  //     .onSnapshot((snapshot) => {
+  //       //desc means descending by timstamp value from firebase
+  //       setPosts(
+  //         snapshot.docs.map((doc) => ({
+  //           id: doc.id,
+  //           post: doc.data(),
+  //         }))
+  //       );
+  //     });
+  // }, []);
+
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
       // console.log("The User is >>>>", authUser);

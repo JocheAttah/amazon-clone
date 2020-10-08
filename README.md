@@ -1,3 +1,15 @@
+# Amazon Clone w/ React
+
+## ScreenSHot
+
+![Snapshot](/img/wip.png)
+Work in Progress
+
+### Live project
+
+https://clone-8a53f.web.app/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
